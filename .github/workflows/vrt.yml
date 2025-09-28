@@ -16,7 +16,7 @@ jobs:
         run: yarn run build
 
       - name: Start server (in background)
-        run: yarn run start &
+        run: yarn run dev &
 
       - name: Lost Pixel
         uses: lost-pixel/lost-pixel@v3.16.0

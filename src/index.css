@@ -272,7 +272,7 @@ textarea {
 }
 
 .list-item {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -372,7 +372,7 @@ textarea {
 }
 
 .loading-item .glow-checkbox {
-  margin-right: 16px;
+  margin-right: 12px;
   width: 12px;
   height: 12px;
 }
@@ -383,13 +383,14 @@ textarea {
 
 .list-items {
   position: relative;
+  padding: 5;
   background: white;
   min-height: 288px;
 }
 
 .list-items .select-placeholder {
   border: none;
-  width: 48px;
+  width: 38px;
 }
 
 .wrapper-message {
@@ -413,15 +414,15 @@ textarea {
 }
 
 .wrapper-message .title-message {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 1000;
   color: #4a5568;
 }
 
 .wrapper-message .subtitle-message {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
   color: #4a5568;
 }
